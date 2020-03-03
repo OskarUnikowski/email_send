@@ -29,7 +29,7 @@ else:
 		inport=input('What is the smtp port for your mailbox?')
 
 	passwd = getpass('password:')	#Inserting password(hidden)
-	i=0
+	
 	while True:
 		#Chosing random number from 1 to 7.
 		num = randint(1,7) 
