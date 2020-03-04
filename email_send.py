@@ -60,4 +60,3 @@ else:
 			except:
 			 	print('Issue while sending an email. Please, check provided emails or your password. Make sure you have internet connection.')
 			 	break
-			break
