@@ -29,14 +29,14 @@ else:
 		inport=input('What is the smtp port for your mailbox?')
 
 	passwd = getpass('password:')	#Inserting password(hidden)
-	
+	at_time = input("At what time you want to be receiving the message? (Use following format: HH:MM:SS)\n")
 	while True:
 		#Chosing random number from 1 to 7.
 		num = randint(1,7) 
 		#Assigning current time to variable and chosing format.
 		now = datetime.now()
 		current_time = now.strftime('%H:%M:%S')
-		if current_time == '09:30:00':
+		if current_time == at_time':
 		
 			email = EmailMessage()
 			email['from'] = account
