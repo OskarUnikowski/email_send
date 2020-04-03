@@ -36,7 +36,7 @@ else:
 		#Assigning current time to variable and chosing format.
 		now = datetime.now()
 		current_time = now.strftime('%H:%M:%S')
-		if current_time == at_time':
+		if current_time == at_time:
 		
 			email = EmailMessage()
 			email['from'] = account
